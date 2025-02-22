@@ -90,7 +90,7 @@
                 moeda.setVisible(false); //moeda fica invisivel
                 var posiçãoMoeda_Y = Phaser.Math.RND.between(50, 650); //sorteio o nuemro
                 moeda.setPosition(posiçãoMoeda_Y, 100); //ajuste da posição da moeda
-                pontuação = +1;
+                pontuação +=1;
                 placar.setText('MOEDAS:' + pontuação) //atualização do texto no placar
                 moeda.setVisible(true); //nova visão da "nova" moeda
             }
